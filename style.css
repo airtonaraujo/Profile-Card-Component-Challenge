@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 45vh, left 50vw top 45vh;
+    font-size: 18px;
+    font-family: 'Kumbh Sans';
+}
+
+hr {
+    border-top: 1px  hsl(227, 14%, 73%);
+    width: 100%;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.pattern img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.photo img {
+    background-color: white;
+    padding: 6%;
+    border-radius: 50%;
+    margin-top: -60%;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.name p:first-child {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.name p:last-child {
+    color: hsl(227, 10%, 46%)
+}
+
+.victor {
+    margin-right: 10px;
+}
+
+.london {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 0.9rem;
+    color: hsl(227, 10%, 46%)
+}
+
+.stats {
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+.followers p:first-child {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.likes p:first-child {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.photos p:first-child {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.followers p:last-child {
+    color: hsl(227, 10%, 46%);
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.likes p:last-child {
+    color: hsl(227, 10%, 46%);
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.photos p:last-child {
+    color: hsl(227, 10%, 46%);
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.attribution {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
