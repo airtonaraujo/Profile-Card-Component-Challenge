@@ -51,12 +51,14 @@ hr {
     margin-top: 5%;
 }
 
-.name p:first-child {
+.name h1:first-child {
+    font-size: 18px;
     font-weight: 700;
     color: hsl(229, 23%, 23%);
 }
 
-.name p:last-child {
+.name h1:last-child {
+    font-size: 18px;
     color: hsl(227, 10%, 46%)
 }
 
